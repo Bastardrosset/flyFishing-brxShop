@@ -12,14 +12,13 @@ import crazy_frog from './images/images/crazy_frog.jpg';
 import pike from './images/images/pike.jpg';
 
 
-
 const products = [
     {
         _id:'1',
         name:'Pop BBlue',
         image:`${bar_blue}`,
         description:'Petit popper bleu pour la pêche du bar en surface',
-        utilite:'Monté sur Hameçon KAMASAN, les bars ne résisterons à \'attraction de ce petit popper',
+        utilite:'Monté sur Hameçon KAMASAN, les bars ne résisterons à l\'attraction de ce petit popper',
         category:'Popper',
         countInStock:'10',
         size:'Size: 3/0',
@@ -30,9 +29,9 @@ const products = [
         name:'Pop BGreen',
         image:`${bar_green}`,
         description:'Petit popper vert pour la pêche du bar en surface',
-        utilite:'Monté sur Hameçon KAMASAN, les bars ne résisterons à \'attraction de ce petit popper',
+        utilite:'Monté sur Hameçon KAMASAN, les bars ne résisterons à l\'attraction de ce petit popper',
         category:'Popper',
-        countInStock:'10',
+        countInStock:'0',
         size:'Size: 3/0',
         price:'10€',
     },
@@ -41,7 +40,7 @@ const products = [
         name:'Pop BLightBlue',
         image:`${bar_lightBlue}`,
         description:'Petit popper argenté pour la pêche du bar en surface',
-        utilite:'Monté sur Hameçon KAMASAN, les bars ne résisterons à \'attraction de ce petit popper',
+        utilite:'Monté sur Hameçon KAMASAN, les bars ne résisterons à l\'attraction de ce petit popper',
         category:'Popper',
         countInStock:'10',
         size:'Size: 3/0',

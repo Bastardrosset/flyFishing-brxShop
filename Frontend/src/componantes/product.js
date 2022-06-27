@@ -6,7 +6,7 @@ const product = ({p}) => {
     <div>
         <Card className='my-3 p-3 rounded'>
             <a href={`/product/${p._id}`}>
-                        <Card.Img src={p.image}/>
+                        <Card.Img style={{width:'100%'}} src={p.image}/>
             </a>
             <Card.Body>
                 <a href={`/product/${p._id}`} style={{textDecoration:"none"}}>
@@ -16,6 +16,9 @@ const product = ({p}) => {
                 </a>
                 <Card.Text>
                     <span className='my-1'>{p.description}</span>
+                    <span>{p.size}</span>
+                </Card.Text>
+                <Card.Text>
                     <span>{p.size}</span>
                 </Card.Text>
                 <Card.Text as ='h5'>

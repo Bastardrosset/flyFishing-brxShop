@@ -1,0 +1,22 @@
+{
+  "name": "brxshop",
+  "version": "1.0.0",
+  "description": "BRX Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bastardrosset/flyFiching-brxShop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bastardrosset/flyFiching-brxShop/issues"
+  },
+  "homepage": "https://github.com/Bastardrosset/flyFiching-brxShop#readme",
+  "dependencies": {
+    "run": "^1.4.0"
+  }
+}
